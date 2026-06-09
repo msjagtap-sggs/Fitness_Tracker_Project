@@ -1,48 +1,178 @@
-# FitFusion - Fitness Dashboard
+# 🏋️ FitFusion - Fitness Dashboard
 
-FitFusion is a fitness dashboard web application that provides users with a comprehensive platform to track and manage their fitness goals. Whether you're an athlete, fitness enthusiast, or just getting started on your wellness journey, FitFusion offers a range of features to help you stay motivated and achieve your fitness targets. This project is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, delivering a seamless and engaging user experience.
-Features
+FitFusion is a full-stack MERN Fitness Dashboard designed to help users track workouts, monitor fitness progress, explore exercise routines, and maintain a healthy lifestyle. The platform combines fitness analytics, workout management, performance tracking, and community features into a single user-friendly application.
 
-    Track your fitness progress with a personalized dashboard.
-    Set and monitor fitness goals.
-    Log daily workouts and activities.
-    View detailed analytics and progress charts.
-    Connect with a community of like-minded fitness enthusiasts.
-    Access a library of workout routines and exercise demonstrations.
+Built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**, FitFusion provides an interactive and responsive experience for fitness enthusiasts.
 
-Tech Stack
+---
 
-   - Frontend: React.js
-   - Backend: Node.js, Express.js
-   - Database: MongoDB
+## 🚀 Features
 
+* 🔐 Google Authentication
+* 📊 Personalized Fitness Dashboard
+* 💪 Exercise Library with Categories
+* 📈 Weekly Performance Analytics
+* 📝 Workout Checklist Management
+* 📚 Fitness Guides & Resources
+* 🔥 Fitness Hotspots & Recommendations
+* ⚙️ User Settings & Customization
+* 📱 Responsive User Interface
+* ☁️ MongoDB Database Integration
 
-### Signup page ( make sure you login or signup with only google )
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/181babcc-5fd9-4b57-8e9c-63837d8642ca)
+---
 
-### Home page
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/36c8a873-89fb-4d62-b07e-7b80d5eb38e9)
+## 🛠️ Tech Stack
 
-### BMI Calculator
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/a01edfb5-f790-4c2c-a175-96dd8efc98ce)
+### Frontend
 
-### Workout dashboard
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/f9e1c656-3e96-465d-8ac6-ca1b9ca307d3)
+* React.js
+* Redux
+* TypeScript
+* Tailwind CSS
 
-### Exercises (you also can use filter)
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/80787917-9f46-4de8-b852-f8efc3c6a3e1)
+### Backend
 
-### Weekly performance 
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/2d1279ea-bc5b-40dc-95ba-f86fdac2b50d)
+* Node.js
+* Express.js
 
-### Workout todo 
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/0879c56f-c401-4a23-bbc1-58d72d99a46f)
+### Database
 
-### Discussion forum
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/8f67c09d-478d-4b43-bcd9-1a87e05ba235)
+* MongoDB Atlas
 
-### Open thread
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/d85cc588-a452-4e5c-9b07-f9c73e72ca89)
+### Authentication
 
-### Chatbot ( if you may have any query ask to chatbot )
-> ![image](https://github.com/hrithikvishwakarma001/fitfusion/assets/104666876/b57b6a17-2b74-4883-910e-b5286123e634)
+* Google OAuth
+
+---
+
+# 📸 Application Screenshots
+
+## 🔐 Signup Page
+
+Users can securely register and log in using Google Authentication.
+
+![Signup Page](screenshots/signup%20page.png)
+
+---
+
+## 🏠 Home Page
+
+The landing page provides quick access to dashboard features and fitness resources.
+
+![Home Page](screenshots/home%20page.png)
+
+---
+
+## 📊 Dashboard
+
+A centralized dashboard to access fitness tools, analytics, and workout resources.
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 📈 Weekly Performance
+
+Track your fitness progress through interactive charts and weekly performance analytics.
+
+![Weekly Performance](screenshots/performace.png)
+
+---
+
+## 📚 Fitness Guides
+
+Access helpful fitness guides and educational resources.
+
+![Guides](screenshots/Guides.png)
+
+---
+
+## 🔥 Hotspots
+
+Explore trending fitness hotspots and recommended activities.
+
+![Hotspots](screenshots/hotspots.png)
+
+---
+
+## ✅ Workout Checklists
+
+Manage daily workout tasks and stay consistent with your fitness goals.
+
+![Checklists](screenshots/checklists.png)
+
+---
+
+## ⚙️ Settings
+
+Customize your profile and application preferences.
+
+![Settings](screenshots/settings.png)
+
+---
+
+## 📂 Project Structure
+
+```bash
+FitFusion/
+│
+├── backend/
+│   ├── confgs/
+│   ├── models/
+│   ├── router/
+│   └── index.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── screenshots/
+├── README.md
+└── package.json
+```
+
+---
+
+## ⚡ Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd fitfusion-hackathon-winning-project
+```
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🌟 Future Enhancements
+
+* AI-powered fitness recommendations
+* Personalized workout plans
+* Nutrition tracking
+* Mobile application support
+* Real-time fitness challenges
+
+---
+
+## 👩‍💻 Author
+
+**Mansi Jagtap**
+
+Built with dedication to promote fitness, consistency, and healthy living through technology.
